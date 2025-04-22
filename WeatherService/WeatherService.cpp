@@ -1,17 +1,18 @@
-﻿#include <iostream>
+#include <iostream>
 #include "JsonService.h"
 #define PUGIXML_HEADER_ONLY
-#include <iostream>
 #include "Weather.h"
 #include "XmlService.h"
 
 int main()
 {
     setlocale(LC_ALL, "rus");
+
     JsonService js;
-    Weather w = js.getWeather("weather.txt");
-    w.print();﻿
+    Weather w_json = js.getWeather("weather.txt");
+    w_json.print();
+
     XmlService xs;
-    Weather w = xs.getWeather("weatherXML.txt");
-    w.print();
+    Weather w_xml = xs.getWeather("weatherXML.txt");
+    w_xml.print();
 }
