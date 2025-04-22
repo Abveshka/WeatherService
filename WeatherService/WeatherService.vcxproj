@@ -127,24 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="JsonService.cpp" />
-=======
     <ClCompile Include="pugixml.cpp" />
->>>>>>> feature-xml
     <ClCompile Include="Service.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
     <ClCompile Include="XmlService.cpp" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+    <ClInclude Include="..\..\..\..\..\source\repos\Labs\VVP2\VVP2\pugiconfig.hpp" />
     <ClInclude Include="json.hpp" />
     <ClInclude Include="JsonService.h" />
-=======
     <ClInclude Include="pugiconfig.hpp" />
     <ClInclude Include="pugixml.hpp" />
->>>>>>> feature-xml
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
     <ClInclude Include="XmlService.h" />
